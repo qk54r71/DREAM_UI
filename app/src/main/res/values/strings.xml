@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">JSON 데이터</string>
+    <string name="winner">Winner</string>
+    <string name="action_reset">보내기</string>
+</resources>

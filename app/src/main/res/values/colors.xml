@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- MemberAccession -->
+    <color name="ac_member_accession_status_bar">#EC038D</color>
+
+    <color name="divider_color">#3F51B5</color>
+    <color name="tab_selected">#EE906A</color>
+
+    <color name="rating_bar_default">#666666</color>
+    <color name="rating_bar_on">#cc0000</color>
+
+</resources>

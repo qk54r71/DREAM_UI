@@ -1,4 +1,4 @@
-package com.plan2.example_rest_api.view;
+package com.plan2.example_rest_api.view.activity;
 
 import android.graphics.Color;
 import android.os.Bundle;
@@ -18,7 +18,7 @@ public class EditText extends AppCompatActivity {
 
     @Override protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.edittext);
+        setContentView(R.layout.activity_edittext);
         mEditor = (RichEditor) findViewById(R.id.editor);
         mEditor.setEditorHeight(200);
         mEditor.setEditorFontSize(22);

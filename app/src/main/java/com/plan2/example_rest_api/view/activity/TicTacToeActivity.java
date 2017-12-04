@@ -1,4 +1,4 @@
-package com.plan2.example_rest_api.view;
+package com.plan2.example_rest_api.view.activity;
 
 import android.content.Intent;
 import android.databinding.DataBindingUtil;
@@ -9,7 +9,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 
 import com.plan2.example_rest_api.R;
-import com.plan2.example_rest_api.databinding.TictactoeBinding;
+import com.plan2.example_rest_api.databinding.ActivityTictactoeBinding;
 import com.plan2.example_rest_api.viewmodel.TicTacToeViewModel;
 
 public class TicTacToeActivity extends AppCompatActivity {
@@ -19,7 +19,7 @@ public class TicTacToeActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        TictactoeBinding binding = DataBindingUtil.setContentView(this, R.layout.tictactoe);
+        ActivityTictactoeBinding binding = DataBindingUtil.setContentView(this, R.layout.activity_tictactoe);
         binding.setViewModel(viewModel);
         viewModel.onCreate();
     }

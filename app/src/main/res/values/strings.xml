@@ -2,4 +2,7 @@
     <string name="app_name">JSON 데이터</string>
     <string name="winner">Winner</string>
     <string name="action_reset">보내기</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

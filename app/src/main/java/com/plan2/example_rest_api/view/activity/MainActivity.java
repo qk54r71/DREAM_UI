@@ -1,4 +1,4 @@
-package com.plan2.example_rest_api.view;
+package com.plan2.example_rest_api.view.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

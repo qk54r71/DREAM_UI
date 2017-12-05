@@ -14,7 +14,7 @@ import com.android.volley.toolbox.HurlStack;
  */
 public class VolleyNetwork {
 
-    //private final static String LOG_NAME = "VolleyNetwork";
+    //private final static String LOG_NAME = "HttpConnection";
 
    /* public static void volleyHttp(
             Context context,
